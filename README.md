@@ -9,4 +9,5 @@ The dataset is avaliable [[`here`](https://zenodo.org/records/7147878)]
 ### code for training
 ```python
 python3 train.py --norm --in_channels 2 --out_channels 1 --checkpoint_dir SFFC-Net --model_type fft_resnet18 --num_epochs 40 --cyclic_lr --batch_size 16 --use_interp
+
 '''
